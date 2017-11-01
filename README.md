@@ -23,9 +23,9 @@ Things you may want to cover:
 
 * ...
 
-> rails new hello_world_action_cable
+	$ rails new hello_world_action_cable
 
-> rails g controller page index
+	$ rails g controller page index
 
 * Add route to routes file config/routes.rb
 
@@ -42,14 +42,17 @@ Things you may want to cover:
 ```
 
 * Install redis uses brew on Mac
-> brew install redis
+ 
+ $ brew install redis
 
 * Start redis server
-> brew services start redis
+ 
+ $ brew services start redis
 
 * Add jquery to gem or uses yarn
-> brew install yarn
-> bin/yarn add jquery
+ 
+ $ brew install yarn
+ $ bin/yarn add jquery
 
 * Add jquery-rails, redis gems in Gemfile
 gem 'jquery-rails'
@@ -60,7 +63,8 @@ gem 'redis'
 //=require jquery
 
 * Add channel called WebNotifications 
-> rails g channel WebNotifications
+ 
+ $ rails g channel WebNotifications
 
 * Edit app/channels/web_notifications_channel.rb
 
@@ -111,7 +115,8 @@ production:
 ```
 
 * Start the rails server
-> rails s
+ 
+ $rails s
 
 * Open http://localhost:3000/
 
