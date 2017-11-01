@@ -1,0 +1,20 @@
+development:
+  adapter: redis
+  url: redis://localhost:6379/1
+  channel_prefix: hello_world_action_cable_production
+
+test:
+  adapter: async
+
+production:
+  adapter: redis
+  url: redis://localhost:6379/1
+  channel_prefix: hello_world_action_cable_production
+
+# redis: &redis
+#   adapter: redis
+#   url: redis://localhost:6379/1
+
+# production: *redis
+# development: *redis
+# test: *redis
